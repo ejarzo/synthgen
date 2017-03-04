@@ -1,0 +1,66 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #fff;
+    color: #222;
+}
+
+::-moz-selection {
+    background: #222;
+    color: #000;
+    text-shadow: none;
+}
+
+::selection {
+    background: #222;
+    color: #000;
+    text-shadow: none;
+}
+
+
+/* ==========================================================================
+   ========================================================================== */
+
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    font-family: "Consolas", Helvetica;
+    font-size: .8em;
+}
+
+#keyboard {
+    margin: auto !important;
+}
+
+#meter {
+    background-color: #fff;
+    width: auto;
+    height: 30px;
+}
+
+#Content {
+    text-align: left;
+    height: 500px;
+}
+
+#fft {
+    width: 475px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+}
+
+#waveform {
+    margin: auto;
+    display: block;
+    border: 1px solid #AAA;
+    border-radius: 2px;
+}
